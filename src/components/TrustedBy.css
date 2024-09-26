@@ -1,0 +1,20 @@
+.trusted-by {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.trusted-by h2 {
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.company-logo {
+  border-radius: 5px;
+}

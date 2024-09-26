@@ -1,8 +1,40 @@
-# React + Vite
+# UniSouk Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
 
-Currently, two official plugins are available:
+This project is a replication of a provided web page design using HTML, CSS, JavaScript and ReactJs. The goal is to create a responsive and visually accurate representation of the design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```sh
+   git clone <https://github.com/aswinprasad/UniSouk.git>
+   cd UniSouk
+   ```
+
+2. **Install dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+3. **Run the project locally**:
+   ```sh
+   npm run dev
+   ```
+
+### Building for Production
+
+To create a production build, run:
+
+```sh
+npm run build
+```

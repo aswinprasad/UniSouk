@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #666;
+}
+
+.cta-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: transparent;
+}
+
+.start-free {
+  background-color: rgb(80 70 227);
+  color: white;
+}
+
+.horizontal-line {
+  border-top: 1px solid #ffffff;
+}

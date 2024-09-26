@@ -1,0 +1,87 @@
+.blog {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0 -5rem;
+  padding: 5rem;
+}
+
+.blog h2 {
+  font-size: 42px;
+  margin: 0;
+  text-align: left;
+}
+
+.blog > p {
+  color: #888;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.blog-post {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.post-image {
+  height: 200px;
+  background-color: #e0e0e0;
+}
+
+.post-content {
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.post-category {
+  font-size: 14px;
+  border: 1px solid;
+  background-color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  position: absolute;
+  top: -15px;
+}
+
+.Resources {
+  color: #1e3a8a;
+}
+
+.Design {
+  color: #065f46;
+}
+
+.Lifestyle {
+  color: #b91c1c;
+}
+
+.Gaming {
+  color: #6d28d9;
+}
+
+.Workspace {
+  color: #0d9488;
+}
+
+.Productivity {
+  color: #d97706;
+}
+
+.post-content > h3 {
+  font-size: 22px;
+  margin: 1rem 0;
+}
+
+.post-content > p {
+  color: #666;
+}
