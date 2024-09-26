@@ -16,7 +16,7 @@ This project is a replication of a provided web page design using HTML, CSS, Jav
 1. **Clone the repository**:
 
    ```sh
-   git clone <https://github.com/aswinprasad/UniSouk.git>
+   git clone https://github.com/aswinprasad/UniSouk.git
    cd UniSouk
    ```
 
